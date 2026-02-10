@@ -84,10 +84,13 @@ function renderTeamAIStrategy() {
               <li>• <strong>Workflow-oriented Augmentation</strong> selectively connects high-impact segments into assisted or automated flows</li>
             </ul>
             <p class="text-slate-700 leading-relaxed mb-3">
-              Rather than adopting AI everywhere at once, this progression allows us to first build a stable baseline, and then incrementally augment execution where value and readiness are clear.
+              Rather than attempting to apply AI across all workflows at once, this progression allows us to first build a stable baseline, and then incrementally augment execution where value and readiness are clear.
+            </p>
+            <p class="text-slate-700 leading-relaxed mb-3">
+              In practice, we anchor this progression on Team OKR Metrics as the first execution entry point, grounding the strategy in a concrete, high-impact operational domain.
             </p>
             <p class="text-slate-700 leading-relaxed">
-              By aligning people first, then people with AI, and finally AI with workflows and systems, this approach strengthens execution resilience, improves agility in responding to change, and increases accuracy and consistency — while remaining controlled, compatible, and scalable.
+              This approach strengthens execution resilience, improves agility in responding to change, and increases accuracy and consistency — while remaining controlled, compatible, and scalable.
             </p>
           </div>
         </div>
