@@ -4,6 +4,19 @@ function renderTeamAIStrategy() {
   const content = document.getElementById("content");
 
   content.innerHTML = `
+    <!-- Page Header -->
+    <div class="max-w-7xl mx-auto mb-8">
+      <div class="bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-600 rounded-2xl shadow-2xl p-8 text-white">
+        <div class="flex items-center justify-between">
+          <div>
+            <h1 class="text-4xl font-bold mb-2">MO 2026 Team AI Strategy</h1>
+            <p class="text-lg text-indigo-100">Standardization → Prompt Enablement → Workflow-oriented Augmentation</p>
+          </div>
+          <div class="text-6xl opacity-20">🤖</div>
+        </div>
+      </div>
+    </div>
+
     <div class="flex gap-8 max-w-7xl mx-auto">
       <!-- Left Navigation -->
       <nav class="w-64 flex-shrink-0">
