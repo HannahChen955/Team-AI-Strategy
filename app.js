@@ -549,154 +549,147 @@ flowchart LR
             <h2 class="text-2xl font-bold text-slate-900">Execution Plan: Standardize → Prompt → Automate</h2>
           </div>
 
-          <!-- Introduction -->
+          <!-- Entry Point: Team OKR Metrics -->
           <div class="mb-6">
+            <h3 class="text-lg font-bold text-slate-900 mb-4 border-b border-slate-200 pb-2">Entry Point: Team OKR Metrics</h3>
+
             <p class="text-slate-700 leading-relaxed mb-3">
-              We will drive AI enablement through three layers: Standardization, Prompt Enablement, and Automation. For any single workflow, these layers build in a linear dependency—standards first, then reliable prompts, then selective automation. Across multiple work items, however, we can run efforts in parallel to maximize team participation within limited time.
+              Team OKR Metrics represent the most comprehensive and critical reflection of factory delivery and supply execution health across our manufacturing operations. They span supply commitment, production discipline, capacity readiness, labor fulfillment, and campus enablement — effectively covering the full scope of our operational responsibility.
             </p>
+
+            <p class="text-slate-700 leading-relaxed mb-3">
+              Because these metrics sit at the center of how performance is reviewed, risks are discussed, and priorities are adjusted throughout the year, the quality of their interpretation directly impacts execution quality.
+            </p>
+
+            <p class="text-slate-700 leading-relaxed mb-3">
+              The goal of this phase is not to redefine targets, but to ensure that:
+            </p>
+            <ul class="space-y-2 text-slate-700 mb-3 ml-6">
+              <li>• Everyone interprets each metric in the same way</li>
+              <li>• Deviations are discussed on a consistent basis</li>
+              <li>• Both humans and AI can reliably reason about metric movements</li>
+            </ul>
+
             <p class="text-slate-700 leading-relaxed">
-              We start by strengthening the data foundation (definitions, templates, interfaces, and source-of-truth links). With stable inputs and outputs, we build a Prompt Library so AI can reliably interpret key planning artifacts and our MO database. Once prompts and structures stabilize, we selectively explore automation in a few high-impact deliverables—without rebuilding systems from scratch.
+              By establishing a clear, shared metric reference in Q2, we make OKR execution more controllable, reviews more efficient, and downstream AI enablement feasible without ambiguity — while also improving cross-functional alignment and decision quality across the broader supply chain organization.
             </p>
           </div>
-          <!-- Table A: Standardization Plan -->
+          <!-- Table A: Standardization Plan (Q2) -->
           <div class="bg-blue-50 rounded-xl p-6 mb-6">
-            <h3 class="text-lg font-bold text-blue-900 mb-2">Table A — Standardization Plan (Data Foundation & Templates)</h3>
-            <p class="text-sm text-blue-700 mb-4">Building the foundation: Shared definitions, standard templates, and source-of-truth links</p>
+            <h3 class="text-lg font-bold text-blue-900 mb-2">Table A — Standardization Plan (Q1-Q2): Team OKR Metrics</h3>
+            <p class="text-sm text-blue-700 mb-4"><strong>Objective:</strong> Create a shared metric reference so Team OKRs can be interpreted consistently across execution reviews, leadership discussions, and AI-assisted analysis.</p>
 
             <div class="overflow-x-auto">
               <table class="w-full text-sm bg-white rounded-lg">
                 <thead class="bg-gradient-to-r from-blue-100 to-blue-50">
                   <tr>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Work Item / Data Asset</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Source of Truth</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Actions (Q1 focus)</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Deliverables</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Timeline</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">DRI</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Completion Mode</th>
+                    <th class="px-4 py-3 text-left font-semibold text-slate-700 w-1/3">Team OKR Metric</th>
+                    <th class="px-4 py-3 text-left font-semibold text-slate-700 w-1/3">Actions</th>
+                    <th class="px-4 py-3 text-left font-semibold text-slate-700 w-1/3">Deliverables</th>
                   </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-200">
                   <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">NPI Review</td>
-                    <td class="px-4 py-3 text-slate-600">Readiness deck, tracker</td>
-                    <td class="px-4 py-3 text-slate-600">Add project links; define standard section structure and required fields</td>
-                    <td class="px-4 py-3 text-slate-600">Standardized NPI template + link library entry</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q1</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI</td>
+                    <td class="px-4 py-3 font-medium text-slate-900">Ex-factory to Supply Commit Attainment %</td>
+                    <td class="px-4 py-3 text-slate-600">Align calculation formula, weighting logic, and common misread scenarios</td>
+                    <td class="px-4 py-3 text-slate-600">Metric reference entry (definition + calculation notes)</td>
                   </tr>
                   <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">Production Plan</td>
-                    <td class="px-4 py-3 text-slate-600">CM production plan (email)</td>
-                    <td class="px-4 py-3 text-slate-600">Collect plan links; define required fields; standard naming/versioning convention</td>
-                    <td class="px-4 py-3 text-slate-600">Standardized production plan template + plan link library entry</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q1</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI</td>
+                    <td class="px-4 py-3 font-medium text-slate-900">Production Schedule Adherence %</td>
+                    <td class="px-4 py-3 text-slate-600">Align deviation criteria and measurement window</td>
+                    <td class="px-4 py-3 text-slate-600">Metric reference entry + deviation interpretation notes</td>
                   </tr>
                   <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">Sustaining Review</td>
-                    <td class="px-4 py-3 text-slate-600">Production plan, CTB</td>
-                    <td class="px-4 py-3 text-slate-600">Align sections & KPI definitions; define leadership-ready narrative structure</td>
-                    <td class="px-4 py-3 text-slate-600">Standardized sustaining review template + link library entry</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q1</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI</td>
+                    <td class="px-4 py-3 font-medium text-slate-900">Capacity Utilization</td>
+                    <td class="px-4 py-3 text-slate-600">Align capacity baseline assumptions and utilization logic</td>
+                    <td class="px-4 py-3 text-slate-600">Metric reference entry + capacity assumption notes</td>
                   </tr>
                   <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">PPR</td>
-                    <td class="px-4 py-3 text-slate-600">Production plan versions</td>
-                    <td class="px-4 py-3 text-slate-600">Define delta format (what changed / why / impact / action); standard comparison structure</td>
-                    <td class="px-4 py-3 text-slate-600">Standard PPR delta format + comparison template</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q1</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI</td>
+                    <td class="px-4 py-3 font-medium text-slate-900">Manufacturing Lead Time Achieve Rate</td>
+                    <td class="px-4 py-3 text-slate-600">Align start/end points and inclusion rules</td>
+                    <td class="px-4 py-3 text-slate-600">Metric reference entry + lead time criteria</td>
                   </tr>
                   <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">Weekly Update</td>
-                    <td class="px-4 py-3 text-slate-600">Notes / sheets</td>
-                    <td class="px-4 py-3 text-slate-600">Define weekly structure; standard tagging for blockers/risks/asks</td>
-                    <td class="px-4 py-3 text-slate-600">Weekly update template + link library entry</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q1</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI</td>
+                    <td class="px-4 py-3 font-medium text-slate-900">BTO On-time Ship %</td>
+                    <td class="px-4 py-3 text-slate-600">Align on-time criteria and exception handling</td>
+                    <td class="px-4 py-3 text-slate-600">Metric reference entry + exception handling notes</td>
                   </tr>
                   <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">Monthly KPI</td>
-                    <td class="px-4 py-3 text-slate-600">KPI tables</td>
-                    <td class="px-4 py-3 text-slate-600">Standard KPI definitions; agree calculation rules & narrative sections</td>
-                    <td class="px-4 py-3 text-slate-600">KPI structure + glossary + standard monthly narrative format</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q1</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI</td>
+                    <td class="px-4 py-3 font-medium text-slate-900">CTO On-time Ship %</td>
+                    <td class="px-4 py-3 text-slate-600">Align configuration impact to on-time targets</td>
+                    <td class="px-4 py-3 text-slate-600">Metric reference entry + configuration impact notes</td>
+                  </tr>
+                  <tr class="hover:bg-slate-50">
+                    <td class="px-4 py-3 font-medium text-slate-900">Labor Fulfillment %</td>
+                    <td class="px-4 py-3 text-slate-600">Align labor counting rules (regular / OT / temp)</td>
+                    <td class="px-4 py-3 text-slate-600">Metric reference entry + labor counting rules</td>
+                  </tr>
+                  <tr class="hover:bg-slate-50">
+                    <td class="px-4 py-3 font-medium text-slate-900">Campus Readiness On-time %</td>
+                    <td class="px-4 py-3 text-slate-600">Align readiness checkpoints and dependency handling</td>
+                    <td class="px-4 py-3 text-slate-600">Metric reference entry + readiness dependency notes</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <!-- Note -->
+            <!-- Output -->
             <div class="mt-4 bg-blue-100 border-l-4 border-blue-500 rounded p-4">
               <p class="text-sm text-blue-900">
-                <strong>Note:</strong> This standardization effort is iterative. The milestone for the first usable baseline is Q2, focusing on completeness and consistency of source links and templates—forming an MO data foundation that supports downstream prompt work and AI interaction.
+                <strong>Output (Q1-Q2):</strong> A Team OKR Metrics Reference that documents how each metric is calculated, interpreted, and discussed — forming the foundation for consistent execution reviews and subsequent AI prompt enablement.
               </p>
             </div>
           </div>
 
-          <!-- Table B: Prompt Enablement Plan -->
+          <!-- Table B: Prompt Enablement Plan (Q3) -->
           <div class="bg-purple-50 rounded-xl p-6 mb-6">
-            <h3 class="text-lg font-bold text-purple-900 mb-2">Table B — Prompt Enablement Plan (Prompt Library)</h3>
-            <p class="text-sm text-purple-700 mb-4">Translating standardized work into AI-readable instructions</p>
+            <h3 class="text-lg font-bold text-purple-900 mb-2">Table B — Prompt Enablement Plan (Q2-Q3): Team OKR Understanding & Upstream Signals</h3>
+            <p class="text-sm text-purple-700 mb-4">Translating standardized work into AI-readable instructions for interpretation and insight generation</p>
 
             <div class="overflow-x-auto">
               <table class="w-full text-sm bg-white rounded-lg">
                 <thead class="bg-gradient-to-r from-purple-100 to-purple-50">
                   <tr>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Knowledge Domain</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Source of Truth</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Deliverables (Prompt Library)</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Intended Use</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Timeline</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">DRI</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Completion Mode</th>
+                    <th class="px-4 py-3 text-left font-semibold text-slate-700 w-1/4">Knowledge Domain</th>
+                    <th class="px-4 py-3 text-left font-semibold text-slate-700 w-1/2">Deliverables (Prompt Library)</th>
+                    <th class="px-4 py-3 text-left font-semibold text-slate-700 w-1/4">Intended Use</th>
                   </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-200">
                   <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">Demand Forecast</td>
-                    <td class="px-4 py-3 text-slate-600">Planning team (email)</td>
-                    <td class="px-4 py-3 text-slate-600">Table explanation prompt; question prompts (signal interpretation)</td>
-                    <td class="px-4 py-3 text-slate-600">Help MO quickly interpret demand signals and changes</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q1</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI</td>
+                    <td class="px-4 py-3 font-medium text-slate-900">Team OKR Metrics & OKR Insight <span class="text-slate-500 font-normal">(metric definitions per Table A)</span></td>
+                    <td class="px-4 py-3 text-slate-600">
+                      <ul class="space-y-1 text-sm">
+                        <li>• Metric explanation prompt</li>
+                        <li>• Calculation reasoning prompt</li>
+                        <li>• Risk & deviation interpretation prompt</li>
+                        <li>• OKR insight & narrative drafting prompt</li>
+                        <li>• "What changed / why / impact / action" prompt</li>
+                      </ul>
+                    </td>
+                    <td class="px-4 py-3 text-slate-600">Help MO quickly understand metric movements and implications; support leadership-ready OKR and performance narratives</td>
                   </tr>
                   <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">CTB</td>
-                    <td class="px-4 py-3 text-slate-600">MPM / CM (email)</td>
-                    <td class="px-4 py-3 text-slate-600">CTB logic prompt; risk & constraint question prompts</td>
-                    <td class="px-4 py-3 text-slate-600">Identify supply risks faster; improve constraint reasoning</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q1</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI</td>
+                    <td class="px-4 py-3 font-medium text-slate-900">CTB & Demand Forecast Understanding</td>
+                    <td class="px-4 py-3 text-slate-600">
+                      <ul class="space-y-1 text-sm">
+                        <li>• CTB logic explanation prompt</li>
+                        <li>• Demand signal interpretation prompt</li>
+                        <li>• Constraint & risk questioning prompts</li>
+                      </ul>
+                    </td>
+                    <td class="px-4 py-3 text-slate-600">Help MO interpret upstream signals faster; improve risk awareness and scenario discussion; clarify this is for understanding & validation, not ownership</td>
                   </tr>
                   <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">Production Plan</td>
-                    <td class="px-4 py-3 text-slate-600">CM (email)</td>
-                    <td class="px-4 py-3 text-slate-600">Plan explanation prompt; validation checklist prompts</td>
-                    <td class="px-4 py-3 text-slate-600">Review and challenge plan assumptions; support scenario discussion</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q1</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI</td>
-                  </tr>
-                  <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">MO Database</td>
-                    <td class="px-4 py-3 text-slate-600">MO internal</td>
-                    <td class="px-4 py-3 text-slate-600">Database usage prompt; query examples; QA prompts for consistency checks</td>
-                    <td class="px-4 py-3 text-slate-600">AI-assisted navigation, querying, and standardized Q&A on MO operational data</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q2</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI</td>
+                    <td class="px-4 py-3 font-medium text-slate-900">Production Plan Review</td>
+                    <td class="px-4 py-3 text-slate-600">
+                      <ul class="space-y-1 text-sm">
+                        <li>• Plan explanation prompt</li>
+                        <li>• Assumption validation checklist prompt</li>
+                        <li>• Scenario challenge prompts</li>
+                      </ul>
+                    </td>
+                    <td class="px-4 py-3 text-slate-600">Review and challenge CM production plans; support structured discussion with stakeholders</td>
                   </tr>
                 </tbody>
               </table>
@@ -705,88 +698,50 @@ flowchart LR
             <!-- Note -->
             <div class="mt-4 bg-purple-100 border-l-4 border-purple-500 rounded p-4">
               <p class="text-sm text-purple-900">
-                <strong>Note:</strong> Demand Forecast and CTB are not owned by MO. The goal of this prompt work is to help MO understand and validate upstream signals faster, not to recreate the planning process.
+                <strong>Note:</strong> This prompt work is not about replacing ownership. CTB and Demand Forecast are owned upstream; these prompts help MO understand and validate signals faster to improve execution responsiveness.
               </p>
             </div>
           </div>
 
-          <!-- Table C: Automation Exploration Plan -->
+          <!-- Table C: Automation Exploration Plan (Q4) -->
           <div class="bg-green-50 rounded-xl p-6">
-            <h3 class="text-lg font-bold text-green-900 mb-2">Table C — Automation Exploration Plan (Selective, High-impact)</h3>
-            <p class="text-sm text-green-700 mb-4">Selectively connecting prompts into repeatable workflows</p>
+            <h3 class="text-lg font-bold text-green-900 mb-2">Table C — Automation Exploration Plan (Q4): Selective, High-impact</h3>
+            <p class="text-sm text-green-700 mb-4">Selectively connecting standardized prompts into repeatable workflows for high-value use cases</p>
 
             <div class="overflow-x-auto">
               <table class="w-full text-sm bg-white rounded-lg">
                 <thead class="bg-gradient-to-r from-green-100 to-green-50">
                   <tr>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Automation Candidate</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Scope</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Deliverables</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Timeline</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">DRI</th>
-                    <th class="px-4 py-3 text-left font-semibold text-slate-700">Completion Mode</th>
+                    <th class="px-4 py-3 text-left font-semibold text-slate-700 w-1/3">Automation Candidate</th>
+                    <th class="px-4 py-3 text-left font-semibold text-slate-700 w-1/3">Scope</th>
+                    <th class="px-4 py-3 text-left font-semibold text-slate-700 w-1/3">Deliverables</th>
                   </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-200">
-                  <!-- 2026 Q3 - Content Generation -->
-                  <tr class="bg-blue-50 hover:bg-blue-100">
-                    <td colspan="6" class="px-4 py-2 font-semibold text-blue-900">2026 Q3 — Content Generation</td>
-                  </tr>
                   <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">Sustaining Review Generator</td>
-                    <td class="px-4 py-3 text-slate-600">Generate first-draft narrative + risk highlights from standardized inputs</td>
-                    <td class="px-4 py-3 text-slate-600">Sustaining draft output format + QC checklist</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q3</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI + Light Automation</td>
-                  </tr>
-                  <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">PPR Version Compare Generator</td>
-                    <td class="px-4 py-3 text-slate-600">Auto-generate deltas (what/why/impact/actions) from plan versions</td>
-                    <td class="px-4 py-3 text-slate-600">PPR delta draft + comparison output</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q3</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI + Light Automation</td>
-                  </tr>
-                  <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">Weekly Update Generator</td>
-                    <td class="px-4 py-3 text-slate-600">Convert scattered notes into standardized weekly update</td>
-                    <td class="px-4 py-3 text-slate-600">Weekly draft generator + QC checklist</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q3</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI + Light Automation</td>
-                  </tr>
-                  <tr class="hover:bg-slate-50">
-                    <td class="px-4 py-3 font-medium text-slate-900">Monthly KPI Narrative Draft</td>
-                    <td class="px-4 py-3 text-slate-600">Draft KPI narrative based on standard KPI tables & definitions</td>
-                    <td class="px-4 py-3 text-slate-600">KPI narrative draft output format</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q3</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI + Light Automation</td>
-                  </tr>
-
-                  <!-- 2026 Q4 - Structured Planning -->
-                  <tr class="bg-purple-50 hover:bg-purple-100">
-                    <td colspan="6" class="px-4 py-2 font-semibold text-purple-900">2026 Q4 — Structured Planning & System Foundation</td>
+                    <td class="px-4 py-3 font-medium text-slate-900">OKR Insight & Narrative Generator</td>
+                    <td class="px-4 py-3 text-slate-600">Generate draft OKR insights and narratives from standardized metrics and prompts</td>
+                    <td class="px-4 py-3 text-slate-600">OKR insight draft output format; leadership-ready narrative template</td>
                   </tr>
                   <tr class="hover:bg-slate-50">
                     <td class="px-4 py-3 font-medium text-slate-900">Product-level Production Plan Simulation (not SKU-level)</td>
-                    <td class="px-4 py-3 text-slate-600">Generate product-level plan for simulation and scenario discussion</td>
-                    <td class="px-4 py-3 text-slate-600">Product-level simulation output + assumptions log format</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q4</td>
-                    <td class="px-4 py-3 text-slate-600">TBD</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI + Light Automation</td>
+                    <td class="px-4 py-3 text-slate-600">Generate product-level plan for scenario discussion and simulation</td>
+                    <td class="px-4 py-3 text-slate-600">Product-level simulation output; assumptions & constraint log format</td>
                   </tr>
                   <tr class="hover:bg-slate-50">
                     <td class="px-4 py-3 font-medium text-slate-900">FDOS v1</td>
                     <td class="px-4 py-3 text-slate-600">MO database + standardized templates + navigation paths ready for usage</td>
                     <td class="px-4 py-3 text-slate-600">FDOS v1 (data foundation + key views)</td>
-                    <td class="px-4 py-3 text-slate-600">2026 Q4</td>
-                    <td class="px-4 py-3 text-slate-600">MO + BET</td>
-                    <td class="px-4 py-3 text-slate-600">Human + AI + Light Automation</td>
                   </tr>
                 </tbody>
               </table>
+            </div>
+
+            <!-- Note -->
+            <div class="mt-4 bg-green-100 border-l-4 border-green-500 rounded p-4">
+              <p class="text-sm text-green-900">
+                <strong>Note:</strong> Automation candidates are chosen based on clear scope, high interpretation cost, and demonstrated value from prompt work. The goal is to support decision-making and reduce manual reformatting—not to replace human judgment or ownership.
+              </p>
             </div>
           </div>
         </div>
