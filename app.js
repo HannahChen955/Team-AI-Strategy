@@ -189,7 +189,7 @@ function renderTeamAIStrategy() {
                     <strong>Daily execution monitoring</strong>, daily stand-ups (morning/evening), daily status reports,
                     production plan generation, CTB constraint analysis, multi-scenario simulation, blocker escalation
                   </td>
-                  <td class="px-5 py-4 text-red-700 bg-amber-50"><strong>Most dynamic phase:</strong> Plan versions change frequently as constraints, demand, and readiness evolve; evolving operational information needs to be reformatted repeatedly for different meetings and reports; multi-scenario simulations expand quickly, increasing cognitive and preparation load; high coordination cost to keep narratives aligned across stakeholders</td>
+                  <td class="px-5 py-4 text-red-700 bg-amber-50">Plan versions change frequently as constraints, demand, and readiness evolve; evolving operational information needs to be reformatted repeatedly for different meetings and reports; multi-scenario simulations expand quickly, increasing cognitive and preparation load; high coordination cost to keep narratives aligned across stakeholders</td>
                 </tr>
                 <tr class="hover:bg-blue-50 transition-colors">
                   <td class="px-5 py-4 font-semibold text-slate-900">Sustaining + EOM</td>
